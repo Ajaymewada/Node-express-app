@@ -1,7 +1,7 @@
-const http = require('http')
+// const http = require('http')
 // const hostname = '127.0.0.1';
 // const port = 3000;
-
+import http from "http";
 http.createServer((req, res) => {
   res.write("Hello Ajay");
   res.end()
