@@ -19,6 +19,6 @@ app.get("/",(req,res) => {
     res.send("Hey Hi!!")
 })
 
-app.listen(5001,() => {
+app.listen(80,() => {
   console.log("Server is running on port number 5001");
 })
